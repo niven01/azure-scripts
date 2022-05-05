@@ -10,6 +10,4 @@ do
         echo "/dev/disk/azure/scsi1/${LUN} /data${NUM} ext4 defaults,nofail 0 0" >>/etc/fstab
     fi
 done
-
 mount -a
-
